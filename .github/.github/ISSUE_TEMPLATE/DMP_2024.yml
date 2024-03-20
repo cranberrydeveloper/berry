@@ -1,5 +1,5 @@
-name: DMP 2024 Project Template
-description: List a new project for Dedicated Mentoring Program (DMP) 2024 
+name: Cranberry - DMP 2024 Project
+description: Cranberry project for Dedicated Mentoring Program (DMP) 2024 
 title: "[DMP 2024]: "
 labels: ["DMP 2024"]
 body:
@@ -11,7 +11,7 @@ body:
       label: Ticket Contents
       value: |
         ## Description
-        [Provide a brief description of the feature, including why it is needed and what it will accomplish.]
+        [Berry Wiki Women’s Health (A UX Project)]
 
   - type: textarea
     id: ticket-goals
@@ -19,32 +19,42 @@ body:
       required: true
     attributes:
       label: Goals & Mid-Point Milestone
-      description: List the goals of the feature. Please add the goals that must be achieved by Mid-point check-in i.e 1.5 months into the coding period.
+      Description: |
+      Berry Wiki is a women’s health wiki with information in the form of audio, video, and text designed for the women of today. 
+      At Cranberry, we believe there is a big gap between what women seek and the information available online. More importantly, we see that the information available online needs to be contextualized to India. We have a team of researchers who create and contextualize information to train our chatbot, Berry. We intend to make this information open source. Berry Wiki will provide women’s health, specifically preventive health-related information in a simple, easy-to-understand, intuitive-to-navigate way. 
+      The scope of the project is ONLY UX and not the tech backend. We currently use wix.com for hosting our side, happy to use another provider. One of the sites that comes closest to our vision is https://helloclue.com/articles
+      But we believe it is not designed for how a user might want to navigate information especially when they are seeking answers for a specific question like “Is my period late?”, “Do I have heavy bleeding?”
       value: |
         ## Goals
-        - [ ] [Goal 1]
-        - [ ] [Goal 2]
-        - [ ] [Goal 3]
-        - [ ] [Goal 4]
-        - [ ] [Goals Achieved By Mid-point Milestone]
+        - [ ] Set up the design objective & user persona
+        - [ ] Conduct user interviews to generate insights on online content consumption
+        - [ ] Create at least 3 mock design mocks to test assumptions
+        - [ ] Conduct User Testing on the mocks
+        - [ ] Define the elements/blocks of Berry WIki
 
   - type: textarea
     id: ticket-setup
     attributes:
       label: Setup/Installation 
-      description: Please list or link setup or installation guide (if any)
+      description: You can check out our current Information protocols at https://cranberryfit.notion.site/Dysmenorrhea-OR-Period-Pain-b4670a2074b0469296a2df1fc6715ed8?pvs=4, https://www.youtube.com/@cranberryforher & https://drive.google.com/drive/folders/1FBNr0eB1-HNNN58nq0WTzQwYRYE9PiLw?usp=drive_link - which give a sense of the information we want to put out there.
 
   - type: textarea
     id: ticket-expected-outcome
     attributes:
       label: Expected Outcome
-      description: Describe in detail what the final product or result should look like and how it should behave.
+      description: A website hosted on https://www.cranberry.fit/. The website is primarily structured with a content-first approach (maybe video first?)  Women can navigate through the site easily and find answers to their questions. The scope looks design of the structure of information, navigation, icons/design choices required to create a good reading/learning experience, and colours (optional)
+      Note: We looked into the current wiki structures of GitBooks, MediaWiki, and other similar sites. They are optimized for navigation for an engineer-first person and tech documentation. For health documentation, we find good examples in Healthline, we need to create an Indian version of the same. 
+
 
   - type: textarea
     id: ticket-acceptance-criteria
     attributes:
       label: Acceptance Criteria
-      description: List the acceptance criteria for this feature.
+      description: Specific criteria to be created in collaboration with the mentors as user interviews will throw more light into what women are exactly looking for when seeking information. The quick summary is here
+                    - Women can navigate with ease through the landing page
+                    - Women can find answers to the questions they are looking for
+                    - Women can share information if required
+
 
   - type: textarea
     id: ticket-implementation-details
@@ -52,19 +62,19 @@ body:
       required: true
     attributes:
       label: Implementation Details
-      description: List any technical details about the proposed implementation, including any specific technologies that will be used.
+      description: NA.
 
   - type: textarea
     id: ticket-mockups
     attributes:
       label: Mockups/Wireframes
-      description: Include links to any visual aids, mockups, wireframes, or diagrams that help illustrate what the final product should look like. This is not always necessary, but can be very helpful in many cases.
+      description: Include links to any visual aids, mockups, wireframes, or diagrams that help illustrate what To be created as a part of the project. Relevant sites are added above.
 
   - type: input
     id: ticket-product
     attributes:
       label: Product Name
-      placeholder: Enter Product Name
+      placeholder: Berry Wiki
     validations:
       required: true
 
@@ -72,7 +82,7 @@ body:
     id: ticket-organisation
     attributes:
       label: Organisation Name
-      description: Enter Organisation Name
+      description: Empower Digital Health / Cranberry
       multiple: false
       options:
         - Bandhu
@@ -106,16 +116,8 @@ body:
     attributes:
       label: Domain
       options:
-        - ⁠Healthcare 
-        - ⁠Education
-        - Financial Inclusion
-        - ⁠Livelihoods
-        - ⁠Skilling 
-        - ⁠Learning & Development
-        - ⁠Agriculture
-        - ⁠Service Delivery
-        - Open Source Library
-        - Water
+        - ⁠HealthTech 
+        - Media
     validations:
       required: true
 
@@ -127,88 +129,11 @@ body:
       description: Select the technologies needed for this ticket (use Ctrl or Command to select multiple)
       multiple: true
       options:
-        - .NET
-        - Angular
-        - Artificial Intelligence
-        - ASP.NET
-        - AWS
-        - Babel
-        - Bootstrap
-        - C#
-        - Chart.js
-        - CI/CD
-        - Computer Vision
-        - CORS
-        - cURL
-        - Cypress
-        - D3.js
-        - Database
-        - Debugging
-        - Design
-        - DevOps
-        - Django
-        - Docker
-        - Electron
-        - ESLint
-        - Express.js
-        - Feature
-        - Flask
-        - Go
-        - GraphQL
-        - HTML
-        - Ionic
-        - Jest
-        - Java
-        - JavaScript
-        - Jenkins
-        - JWT
-        - Kubernetes
-        - Laravel
-        - Machine Learning
-        - Maintenance
-        - Markdown
-        - Material-UI
-        - Microservices
-        - MongoDB
-        - Mobile
-        - Mockups
-        - Mocha
-        - Natural Language Processing
-        - NestJS
-        - Node.js
-        - NUnit
-        - OAuth
-        - Performance Improvement
-        - Prettier
-        - Python
-        - Question
-        - React
-        - React Native
-        - Redux
-        - RESTful APIs
-        - Ruby
-        - Ruby on Rails
-        - Rust
-        - Scala
-        - Security
-        - Selenium
-        - SEO
-        - Serverless
-        - Solidity
-        - Spring Boot
-        - SQL
-        - Swagger
-        - Tailwind CSS
-        - Test
-        - Testing Library
-        - Three.js
-        - TypeScript
-        - UI/UX/Design
-        - Virtual Reality
-        - Vue.js
-        - WebSockets
-        - Webpack
-        - Other
+        - UX
+        - User Experience
+        - User Interviews
+        - Mock Design
+        - Wireframes
     validations:
       required: true
 
@@ -216,7 +141,7 @@ body:
     id: ticket-mentors
     attributes:
       label: Mentor(s)
-      description: Please tag relevant mentors for the ticket
+      description: Saraswati, Aditi, Treemouse
     validations:
       required: true
 
@@ -227,35 +152,7 @@ body:
       description: Choose the categories that best describe your ticket
       multiple: true
       options:
-        - API
-        - Analytics
-        - Accessibility
-        - Backend
-        - Breaking Change
-        - Beginner Friendly
-        - Configuration
-        - CI/CD
-        - Database
-        - Data Science
-        - Deprecation
-        - Documentation
-        - Delpoyment
-        - Frontend
-        - Internationalization
-        - Localization
-        - Machine Learning
-        - Maintenance
-        - Mobile
-        - Performance Improvement
-        - Question
-        - Refactoring
-        - Research
-        - Needs Reproduction
-        - SEO
-        - Security
-        - Testing
-        - AI
-        - Other
+        - UX Design
     validations:
       required: true
 
